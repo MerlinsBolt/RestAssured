@@ -1,0 +1,47 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 20.6,
+        "lng": 30.6
+    },
+    "accuracy": 50,
+    "name": "Vijay Yadav",
+    "phone_number": "8689946239",
+    "address": "Prasan Niwas",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "ww.gmail.om",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Apr 2022 15:46:43 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ae83ede685a8b6d24171e8859b6f45ed",
+    "scope": "APP",
+    "reference": "58a0069c0435a747895c8b824dd5fb5058a0069c0435a747895c8b824dd5fb50",
+    "id": "58a0069c0435a747895c8b824dd5fb50"
+}
